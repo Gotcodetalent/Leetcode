@@ -8,4 +8,4 @@
 
 ## [Array](./Array/)
 - [0026-Remove_Duplicates_from_Sorted_Array](Array/0026-Remove_Duplicates_from_Sorted_Array.cpp) **(E)**
-- [Array/0027-Remove_Element] (Array/0027-Remove_Element.cpp) **(E)**
+- [0027-Array/0027-Remove_Element] (Array/0027-Remove_Element.cpp) **(E)**
