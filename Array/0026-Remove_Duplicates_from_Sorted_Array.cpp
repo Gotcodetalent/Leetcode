@@ -10,7 +10,7 @@ https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
 
 
 有使用到的觀念：
-Array, TwoPointers
+Array, TwoPointer
 */
 
 // #include "../code_function.h"
