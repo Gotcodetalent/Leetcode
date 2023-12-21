@@ -7,4 +7,4 @@
 
 
 ## [Array](./Array/)
-- [0026-Remove_Duplicates_from_Sorted_Array](./Array/0026-Remove_Duplicates_from_Sorted_Array.cpp) **(E)**
+- [0026-Remove_Duplicates_from_Sorted_Array](Array/0026-Remove_Duplicates_from_Sorted_Array.cpp) **(E)**
