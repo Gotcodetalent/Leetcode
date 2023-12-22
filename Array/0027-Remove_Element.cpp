@@ -3,8 +3,25 @@
 https://leetcode.com/problems/remove-element/description/
 與26題類似, 但必須移除值與val相同的數值
 
+測試用程式:
+
+int[] nums = [...]; // Input array
+int val = ...; // Value to remove
+int[] expectedNums = [...]; // The expected answer with correct length.
+                            // It is sorted with no values equaling val.
+
+int k = removeElement(nums, val); // Calls your implementation
+
+assert k == expectedNums.length;
+sort(nums, 0, k); // Sort the first k elements of nums
+for (int i = 0; i < actualLength; i++) {
+    assert nums[i] == expectedNums[i];
+}
+
 解說：
-使用idx來指向目前目前的k-value,從0開始,並linear scan目前的array中有那些值不是val, 將其依據idx更新,並更新idx值
+此解法沒有特別求出k值, 而是更新nums陣列。
+使用一個用來更新陣列(nums)內元素的指標(idx)來指向陣列起始位置,並從陣列的頭開始linear scan, 若指標指向的值不等於val, 則將該值放在該指標所指的位置
+指標所指之處即為目前所更新到的位置,例如: idx等於3的話,代表已經更新3個元素(idx=0~2),下一個更新位置為idx=3。
 
 有使用到的觀念：
 Array, TwoPointer
