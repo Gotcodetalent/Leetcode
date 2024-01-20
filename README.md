@@ -9,9 +9,9 @@
 ## [Array](./Array/)
 - [0026-Remove_Duplicates_from_Sorted_Array](Array/0026-Remove_Duplicates_from_Sorted_Array.cpp) **(E)**
 - [0027-Array/0027-Remove_Element](Array/0027-Remove_Element.cpp) **(E)**
-- [0028. Find the Index of the First Occurrence in a String](Array/0028-Find_the_Index_of_the_First_Occurrence_in_a_String.cpp) **(E)**
-- [0045. Jump_Game_II.cpp](Array/0045-Jump_Game_II.cpp) **(M)**
-- [0055. Jump_Game.cpp](Array/0055-Jump_Game.cpp) **(M)**
-- [0056. Merge_Intervals.cpp](Array/0056-Merge_Intervals.cpp) **(M)**
-- [0057. Insert_Interval.cpp](Array/0057-Insert_Interval.cpp) **(M)**
-- [0058, Length of Last Word.cpp](Array/0058-Length of Last Word.cpp) **(E)**
+- [0028-Find the Index of the First Occurrence in a String](Array/0028-Find_the_Index_of_the_First_Occurrence_in_a_String.cpp) **(E)**
+- [0045-Jump_Game_II.cpp](Array/0045-Jump_Game_II.cpp) **(M)**
+- [0055-Jump_Game.cpp](Array/0055-Jump_Game.cpp) **(M)**
+- [0056-Merge_Intervals.cpp](Array/0056-Merge_Intervals.cpp) **(M)**
+- [0057-Insert_Interval.cpp](Array/0057-Insert_Interval.cpp) **(M)**
+- [0058-Length of Last Word.cpp](Array/0058-Length of Last Word.cpp) **(E)**
