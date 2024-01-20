@@ -14,3 +14,4 @@
 - [0055. Jump_Game.cpp](Array/0055-Jump_Game.cpp) **(M)**
 - [0056. Merge_Intervals.cpp](Array/0056-Merge_Intervals.cpp) **(M)**
 - [0057. Insert_Interval.cpp](Array/0057-Insert_Interval.cpp) **(M)**
+- [0058, Length of Last Word.cpp](Array/0058-Length of Last Word.cpp) **(E)**
