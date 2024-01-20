@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 3 題
+- 目前有 8 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -14,4 +14,4 @@
 - [0055-Jump_Game.cpp](Array/0055-Jump_Game.cpp) **(M)**
 - [0056-Merge_Intervals.cpp](Array/0056-Merge_Intervals.cpp) **(M)**
 - [0057-Insert_Interval.cpp](Array/0057-Insert_Interval.cpp) **(M)**
-- [0058-Length of Last Word.cpp](Array/0058-Length of Last Word.cpp) **(E)**
+- [0058-Length of Last Word.cpp](Array/0058-Length_of_Last_Word.cpp) **(E)**
