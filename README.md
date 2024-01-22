@@ -16,4 +16,4 @@
 - [0057-Insert_Interval.cpp](Array/0057-Insert_Interval.cpp) **(M)**
 - [0058-Length of Last Word.cpp](Array/0058-Length_of_Last_Word.cpp) **(E)**
 - [0080-Remove_Duplicates_from_Sorted_Array_II.cpp](Array/0080-Remove_Duplicates_from_Sorted_Array_II.cpp) **(M)**
-- [0088-Merge_Sorted_Array.cpp](Array/0088-Merge_Sorted-Array.cpp) **(E)**
+- [0088-Merge_Sorted_Array.cpp](Array/0088-Merge_Sorted_Array.cpp) **(E)**
