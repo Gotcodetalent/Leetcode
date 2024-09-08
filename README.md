@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 12 題
+- 目前有 13 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -20,3 +20,4 @@
 - [0121-Best_Time_to_Buy_and_Sell_Stock.cpp](Array/0121-Best_Time_to_Buy_and_Sell_Stock.cpp) **(E)**
 - [0122-Best_Time_to_Buy_and_Sell_Stock_II.cpp](Array/0122-Best_Time_to_Buy_and_Sell_Stock_II.cpp) **(M)**
 - [0169-Majority_Element.cpp](Array/0169-Majority_Element.cpp) **(E)**
+- [0189-Rotate_Array.cpp](Array/0189-Rotate_Array.cpp) **(M)**
