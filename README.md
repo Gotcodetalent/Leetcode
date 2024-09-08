@@ -18,4 +18,4 @@
 - [0080-Remove_Duplicates_from_Sorted_Array_II.cpp](Array/0080-Remove_Duplicates_from_Sorted_Array_II.cpp) **(M)**
 - [0088-Merge_Sorted_Array.cpp](Array/0088-Merge_Sorted_Array.cpp) **(E)**
 - [0121-Best_Time_to_Buy_and_Sell_Stock.cpp](Array/0121-Best_Time_to_Buy_and_Sell_Stock.cpp) **(E)**
-- [0122-Best_Time_to_Buy_and_Sell_Stock_II.cpp](Array/0121-Best_Time_to_Buy_and_Sell_Stock_II.cpp) **(M)**
+- [0122-Best_Time_to_Buy_and_Sell_Stock_II.cpp](Array/0122-Best_Time_to_Buy_and_Sell_Stock_II.cpp) **(M)**
