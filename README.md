@@ -23,4 +23,4 @@
 - [0189-Rotate_Array.cpp](Array/0189-Rotate_Array.cpp) **(M)**
 - [0228-Summary_Ranges.cpp](Array/0228-Summary_Ranges.cpp) **(E)**
 - [0238-Product_of_Array_Except_Self.cpp](Array/0238-Product_of_Array_Except_Self.cpp) **(M)**
-- [0274-H-Index.cpp][Array/0274-H-Index.cpp] **(M)**
+- [0274-H-Index.cpp](Array/0274-H-Index.cpp) **(M)**
