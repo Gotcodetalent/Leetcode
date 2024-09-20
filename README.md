@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 19 題
+- 目前有 20 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -26,3 +26,4 @@
 - [0274-H-Index.cpp](Array/0274-H-Index.cpp) **(M)**
 - [0380-Insert_Delete_GetRandom O(1).cpp](Array/0380-Insert_Delete_GetRandom_O(1).cpp) **(M)**
 - [0435-Non-overlapping_Intervals.cpp](Array/0435-Non-overlapping_Intervals.cpp) **(M)**
+- [0452-Minimum_Number_of_Arrows_to_Burst_Balloons.cpp](Array/0452-Minimum_Number_of_Arrows_to_Burst_Balloons.cpp) **(M)**
