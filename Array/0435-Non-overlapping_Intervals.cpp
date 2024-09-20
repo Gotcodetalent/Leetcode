@@ -9,6 +9,7 @@ https://leetcode.com/problems/non-overlapping-intervals
 - 若Y,則移除 (line 28)
 - 若N,則更新目前的開始時間 (line 31)
 
+#如果將開始時間由早到晚or結束時間由晚到早排序,可能會選到一些大區間使得後續的小區間被覆蓋,這樣就不是min number of removed interval
 
 有使用到的觀念：
 Greedy, Array
