@@ -30,3 +30,4 @@
 - [1287-Element_Appearing_More_Than_25%_In_Sorted_Array.cpp](Array/1287-Element_Appearing_More_Than_25%25_In_Sorted_Array.cpp) **(E)**
 - [1535-Find_the_Winner_of_an_Array_Game.cpp](Array/1535-Find_the_Winner_of_an_Array_Game.cpp) **(M)**
 - [1561-Maximum_Number_of_Coins_You_Can_Get.cpp](Array/1561-Maximum_Number_of_Coins_You_Can_Get.cpp) **(M)**
+- [1625-Lexicographically_Smallest_String_After_Applying_Operations.cp](Array/1625-Lexicographically_Smallest_String_After_Applying_Operations.cp) **(M)**
