@@ -3,10 +3,11 @@
 https://leetcode.com/problems/find-indices-with-index-and-value-difference-i/description/
 
 解說：
-
+在給定的indexDifference範圍內逐一紀錄具有最大、最小值的index,因為距離已經被限制為合法的
+當與極值之間的距離滿足valueDifference即為答案
 
 有使用到的觀念：
-
+Greedy,Array
 */
 
 // #include "../code_function.h"
