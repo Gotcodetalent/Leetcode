@@ -1,6 +1,6 @@
 /*
 題目：
-
+https://leetcode.com/problems/find-indices-with-index-and-value-difference-i/description/
 
 解說：
 
