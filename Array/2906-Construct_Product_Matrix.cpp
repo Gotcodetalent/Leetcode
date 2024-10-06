@@ -4,6 +4,7 @@ https://leetcode.com/problems/construct-product-matrix/
 
 解說：
 先計算出左邊乘積再計算出右邊乘積(要先do module,否則即使用long long型態heap也會overflow), 最後再乘在一起
+這邊使用一維動態陣列來存放乘積,也可以另外宣告二維,在解讀上會較直觀
 
 有使用到的觀念：
 
