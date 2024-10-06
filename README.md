@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 31 題
+- 目前有 32 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -38,3 +38,4 @@
 - [2785-Sort_Vowels_in_a_String.cpp](Array/2785-Sort_Vowels_in_a_String.cpp) **(M)**
 - [2862-Maximum_Element-Sum_of_a_Complete_Subset_of_Indices.cpp](Array/2862-Maximum_Element-Sum_of_a_Complete_Subset_of_Indices.cpp) **(H)**
 - [2903-Find_Indices_With_Index_and_Value_Difference_I.cpp](Array/2903-Find_Indices_With_Index_and_Value_Difference_I.cpp) **(E)**
+- [2905-Find_Indices_With_Index_and_Value_Difference_II.cpp](Array/2905-Find_Indices_With_Index_and_Value_Difference_II.cpp) **(M)**
