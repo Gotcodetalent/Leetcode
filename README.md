@@ -39,3 +39,4 @@
 - [2862-Maximum_Element-Sum_of_a_Complete_Subset_of_Indices.cpp](Array/2862-Maximum_Element-Sum_of_a_Complete_Subset_of_Indices.cpp) **(H)**
 - [2903-Find_Indices_With_Index_and_Value_Difference_I.cpp](Array/2903-Find_Indices_With_Index_and_Value_Difference_I.cpp) **(E)**
 - [2905-Find_Indices_With_Index_and_Value_Difference_II.cpp](Array/2905-Find_Indices_With_Index_and_Value_Difference_II.cpp) **(M)**
+- [2906-Construct_Product_Matrix.cpp](Array/2906-Construct_Product_Matrix.cpp) **(M)**
