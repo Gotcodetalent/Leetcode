@@ -44,3 +44,4 @@
 - [2909-Minimum_Sum_of_Mountain_Triplets_II.cpp](Array/2909-Minimum_Sum_of_Mountain_Triplets_II.cpp) **(M)**
 - [2910-Minimum_Number_of_Groups_to_Create_a_Valid_Assignment.cpp](Array/2910-Minimum_Number_of_Groups_to_Create_a_Valid_Assignment.cpp) **(M)**
 - [2914-Minimum_Number_of_Changes_to_Make_Binary_String_Beautiful.cpp](Array/2914-Minimum_Number_of_Changes_to_Make_Binary_String_Beautiful.cpp) **(M)**
+- [2923-Find_Champion_I.cpp](Array/2923-Find_Champion_I.cpp) **(E)**
