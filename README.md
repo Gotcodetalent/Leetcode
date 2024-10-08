@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 39 題
+- 目前有 40 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -46,3 +46,4 @@
 - [2914-Minimum_Number_of_Changes_to_Make_Binary_String_Beautiful.cpp](Array/2914-Minimum_Number_of_Changes_to_Make_Binary_String_Beautiful.cpp) **(M)**
 - [2923-Find_Champion_I.cpp](Array/2923-Find_Champion_I.cpp) **(E)**
 - [2924-Find_Champion_II.cpp](Array/2924-Find_Champion_II.cpp) **(M)**
+- [2956-Find_Common_Elements_Between_Two_Arrays.cpp](Array/2956-Find_Common_Elements_Between_Two_Arrays.cpp) **(E)**
