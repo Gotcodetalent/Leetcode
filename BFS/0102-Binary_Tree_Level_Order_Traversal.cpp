@@ -10,7 +10,7 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/
 有使用到的觀念：
 BFS, Tree
 */
-
+(Faster) vector版本: (後端刪除、插入為O(1))
 // #include "../code_function.h"
 class Solution {
 public:
@@ -32,6 +32,34 @@ public:
                 queue.erase(queue.begin());
             }
             ans.push_back(tmp);
+        }
+
+        return ans;
+    }
+};
+
+queue版本: (前端 & 後端之刪除、插入為O(1))
+class Solution {
+public:
+    vector<vector<int>> levelOrder(TreeNode* root) {
+        vector<vector<int>> ans;
+        if (root == nullptr) return ans;
+        
+        queue<TreeNode*> q;
+        q.push(root);
+        while(!q.empty())
+        {
+            vector<int> order;
+            int size = q.size();
+            for(int i=0; i<size; i++)
+            {
+                TreeNode* node = q.front();
+                order.push_back(node->val);
+                if(node -> left != NULL) q.push(node->left);
+                if(node -> right != NULL) q.push(node->right);
+                q.pop();
+            }
+            ans.push_back(order);
         }
 
         return ans;
