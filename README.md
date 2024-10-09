@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 42 題
+- 目前有 43 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -50,3 +50,4 @@
 ## [BFS](./BFS/)
 - [0102-Binary_Tree_Level_Order_Traversal.cpp](BFS/0102-Binary_Tree_Level_Order_Traversal.cpp) **(M)**
 - [0103-Binary_Tree_Zigzag_Level_Order_Traversal.cpp](BFS/0103-Binary_Tree_Zigzag_Level_Order_Traversal.cpp) **(M)**
+- [0127-Word_Ladder.cpp](BFS/0127-Word_Ladder.cpp) **(H)**
