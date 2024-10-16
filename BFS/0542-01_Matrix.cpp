@@ -52,11 +52,8 @@ public:
 第一次寫的解法:
 class Solution {
 public:
-    bool isValid_row(int x, int m) {
-        return (x >= 0 && x < m);
-    }
-    bool isValid_col(int x, int n) {
-        return (x >= 0 && x < n);
+    bool isValid(int x, int y, int m, int n) {
+        return (x >= 0 && x < m) && (y >= 0 && y < n);
     }
     vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
         vector<pair<int,int>> direction = {{-1,0},{0,1},{1,0},{0,-1}};
@@ -72,7 +69,7 @@ public:
                     for(auto& pair : direction) {
                         int x = i + pair.first;
                         int y = j + pair.second;
-                        if(isValid_row(x, m) && isValid_col(y, n)) {
+                        if(isValid(x,y,m,n)) {
                             if(mat[x][y] == 0) {
                                 dist[i][j] = 1;
                             } else {
@@ -88,7 +85,7 @@ public:
                     for(auto& pair : direction) {
                         int x = m-i-1 + pair.first;
                         int y = n-j-1 + pair.second;
-                        if(isValid_row(x, m) && isValid_col(y, n)) {
+                        if(isValid(x,y,m,n)) {
                             if(mat[x][y] == 0) {
                                 dist[m-i-1][n-j-1] = 1;
                             } else {
