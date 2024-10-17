@@ -75,3 +75,52 @@ public:
 };
 
 Method 2:
+class Solution {
+    vector<int> ans;
+public:
+    vector<int> distanceK(TreeNode* root, TreeNode* target, int k) 
+    {
+        dist(root, target, k);
+        return ans;
+    }
+
+    // return the distance from root to target
+    // return -1 if target does not in the tree
+    int dist(TreeNode* root, TreeNode* target, int k)
+    {
+        if(root == nullptr) return -1;
+        if(root == target)
+        {
+            collect(target, k);
+            return 0;
+        }
+
+        int left = dist(root->left, target, k);
+        int right = dist(root->right, target, k);
+
+        // target in the right subtree
+        if(left >= 0)
+        {
+            if(left == k-1) ans.push_back(root->val);
+            collect(root->right, k - left - 2);
+            return left+1;
+        }
+
+        if(right >= 0)
+        {
+            if(right == k-1) ans.push_back(root->val);
+            collect(root->left, k - right - 2);
+            return right + 1;
+        }
+
+        return -1;
+    }
+
+    void collect(TreeNode* root, int d)
+    {
+        if(root == nullptr || d < 0) return;
+        if(d == 0) ans.push_back(root->val);
+        collect(root->left, d-1);
+        collect(root->right, d-1);
+    }
+};
