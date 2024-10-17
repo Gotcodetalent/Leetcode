@@ -3,7 +3,7 @@
 https://leetcode.com/problems/shortest-path-visiting-all-nodes/
 
 解說：
-要使用BFS求最短的遍歷路徑,不能只單純記錄走過的node,而是要記錄走過的"path",且根據start node(或end node)來為相同的path做出區別
+要使用BFS求最短的遍歷路徑,不能只單純記錄走過的node,而是要記錄走過的"path",且根據end node來為相同的path做出區別
 利用bitmap表示每個node可能走過的路徑,若有n個node,則有2^n種可能的路徑
 將路徑作為index,使用2d vector visited來表示從node n開始的路徑中有那些是已經走訪過的
 例如n = 4, node = {0,1,2,3},start node為0, 則走過[0,1,3]這三個節點的路徑為1101 (start node可能也為1,3),則visited[0][13(1101)] = 1
