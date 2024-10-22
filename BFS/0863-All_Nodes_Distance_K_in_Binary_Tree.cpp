@@ -98,14 +98,14 @@ public:
         int left = dist(root->left, target, k);
         int right = dist(root->right, target, k);
 
-        // target in the right subtree
+        // target in the left subtree
         if(left >= 0)
         {
             if(left == k-1) ans.push_back(root->val);
             collect(root->right, k - left - 2);
             return left+1;
         }
-
+        // target in the right subtree
         if(right >= 0)
         {
             if(right == k-1) ans.push_back(root->val);
