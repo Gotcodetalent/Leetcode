@@ -4,7 +4,10 @@ https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 
 解說：
 方法1: 先用以root為起點跑一次BFS,求出每個node的neighbor,接著再以target為起始點跑一次BFS,找到所有滿足distance為k的node
-方法2: Recursive
+方法2: Recursive, 分為兩種情況
+a.使用dist找到target後,先用collect找到以target為root時相距為k的node
+b.當找到target時會return 0,若target在左子樹,則開始以target的parent node為root遞迴檢查與其相距為k的node, left的物理意義為target所在的level,初始為0
+因此便從root的右子點(與root的左子點最小距離為2)找尋距離k-left-2的node,接著繼續往上遞迴(left+1)
 
 有使用到的觀念：
 
