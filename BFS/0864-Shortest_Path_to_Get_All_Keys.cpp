@@ -10,9 +10,6 @@ https://leetcode.com/problems/shortest-path-to-get-all-keys/
 有使用到的觀念：
 
 */
-
-#include "../code_function.h"
-
 class Solution {
 public:
     int shortestPathAllKeys(vector<string>& grid) 
@@ -28,14 +25,14 @@ public:
         for(int i = 0; i < m; i++)
             for(int j = 0; j < n; j++)
             {
-                char c = grid[i][j];
-                if(c == '@')
+                char ch = grid[i][j];
+                if(ch == '@')
                 {
                     q.push((i << 16) | (j << 8));
                     seen[i][j][0] = 1;
-                }else if(c >= 'a' && c <= 'f')
+                }else if(ch >= 'a' && ch <= 'f')
                 {
-                    all_keys |= (1 << (c - 'a'));
+                    all_keys |= (1 << (ch - 'a'));
                 }
             }
 
@@ -61,11 +58,11 @@ public:
                     int ny = y + dir[i+1];
 
                     if(nx < 0 || nx >= m || ny < 0 || ny >= n) continue;
-                    const char c = grid[nx][ny];
-                    if(c == '#') continue;
-                    if(c >= 'A' && c <= 'F' && !(keys & (1 << (c-'A')))) continue;
+                    const char ch = grid[nx][ny];
+                    if(ch == '#') continue;
+                    if(ch >= 'A' && ch <= 'F' && !(keys & (1 << (ch-'A')))) continue;
 
-                    if(c >= 'a' && c <= 'f') nkeys |= (1 << (c-'a'));
+                    if(ch >= 'a' && ch <= 'f') nkeys |= (1 << (ch-'a'));
                     if(seen[nx][ny][nkeys])continue;
                     q.push((nx << 16) | (ny << 8) | nkeys);
                     seen[nx][ny][nkeys] = 1;
