@@ -3,7 +3,7 @@
 https://leetcode.com/problems/permutations/description/
 
 解說：
-nums[0] ~ nums[n-1]在index為0時,必定皆為不同的排列
+nums[0] ~ nums[n-1]在index為0時,彼此產生的排列必定相異
 因此以這種方式再對後面n-1,n-2,n-3...個數求不同的排列,直到剩下1個數便為一種排列 (即start == n)
 
 有使用到的觀念：
