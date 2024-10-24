@@ -3,10 +3,10 @@
 https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 
 解說：
-
+建立hash table,dfs找尋所有排列組合
 
 有使用到的觀念：
-
+DFS
 */
 
 // #include "../code_function.h"
