@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 54 題
+- 目前有 55 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -62,3 +62,4 @@
 - [0864-Shortest_Path_to_Get_All_Keys.cpp](BFS/0864-Shortest_Path_to_Get_All_Keys.cpp) **(H)**
 - [1306-Jump_Game_III.cpp](BFS/1306-Jump_Game_III.cpp) **(M)**
 - [1466-Reorder_Routes_to_Make_All_Paths_Lead_to_the_City_Zero.cpp](BFS/1466-Reorder_Routes_to_Make_All_Paths_Lead_to_the_City_Zero.cpp) **(M)**
+- [1926-Nearest_Exit_from_Entrance_in_Maze.cpp](BFS/1926-Nearest_Exit_from_Entrance_in_Maze.cpp) **(M)**
