@@ -65,3 +65,4 @@
 - [1926-Nearest_Exit_from_Entrance_in_Maze.cpp](BFS/1926-Nearest_Exit_from_Entrance_in_Maze.cpp) **(M)**
 ## [DFS](./DFS/)
 - [0017-Letter_Combinations_of_a_Phone_Number.cpp](DFS/0017-Letter_Combinations_of_a_Phone_Number.cpp) **(M)**
+- [0022-Generate_Parentheses.cpp](DFS/0022-Generate_Parentheses.cpp) **(M)**
