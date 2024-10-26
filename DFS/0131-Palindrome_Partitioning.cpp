@@ -3,7 +3,7 @@
 https://leetcode.com/problems/palindrome-partitioning/
 
 解說：
-ans的subset中,palindromes滿足x1 + x2 + x3 ... + xn = n, 其中 x1~xn >= 1, n為字串s的長度 
+ans的subset中,palindromes滿足x1 + x2 + x3 ... + xk = n, 其中 1 <= x1, x2, ..., xk , n為字串s的長度, 1<= k <= n. 
 因此只要從s的第一個char開始一次選1個,2個,...,選完後開始下個遞迴,從上次選取的index + 1開始繼續選,直到選滿長度n
 
 有使用到的觀念：
