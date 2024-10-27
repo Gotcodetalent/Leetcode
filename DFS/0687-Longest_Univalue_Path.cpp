@@ -3,7 +3,7 @@
 https://leetcode.com/problems/longest-univalue-path/
 
 解說：
-
+DFS,同時記錄左右子樹較高者並返回給root,只要val相同就能累加長度,反之則歸0,每回合都對LongestPath進行一次更新
 
 有使用到的觀念：
 
