@@ -3,7 +3,7 @@
 https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
 
 解說：
-概念與0473同,只是會有重複的元素, 當選到重覆的就繼續
+概念與0473同,只是會有重複的元素, 當選到重覆的跳過, 減少不必要的遞迴
 
 有使用到的觀念：
 
