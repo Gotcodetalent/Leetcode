@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 71 題
+- 目前有 72 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -80,3 +80,4 @@
 - [0695-Max_Area_of_Island.cpp](DFS/0695-Max_Area_of_Island.cpp) **(M)**
 - [0698-Partition_to_K_Equal_Sum_Subsets.cpp](DFS/0698-Partition_to_K_Equal_Sum_Subsets.cpp) **(M)**
 - [0797-All_Paths_From_Source_to_Target.cpp](DFS/0797-All_Paths_From_Source_to_Target.cpp) **(M)**
+- [1020-Number_of_Enclaves.cpp](DFS/1020-Number_of_Enclaves.cpp) **(M)**
