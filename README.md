@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 74 題
+- 目前有 75 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -83,3 +83,4 @@
 - [1020-Number_of_Enclaves.cpp](DFS/1020-Number_of_Enclaves.cpp) **(M)**
 - [1192-Critical_Connections_in_a_Network.cpp](DFS/1192-Critical_Connections_in_a_Network.cpp) **(H)**
 - [1254-Number_of_Closed_Islands.cpp](DFS/1254-Number_of_Closed_Islands.cpp) **(M)**
+- [2049-Count_Nodes_With_the_Highest_Score.cpp](DFS/2049-Count_Nodes_With_the_Highest_Score.cpp) **(M)**
