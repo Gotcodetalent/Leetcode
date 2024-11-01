@@ -6,7 +6,7 @@ https://leetcode.com/problems/count-nodes-with-the-highest-score/
 求刪掉某個node後,產生的每個subtree數量的乘積
 step 1. 建立圖
 step 2. DFS找出以每個node為root時,其size為多少,並記錄下來
-step 3. 左子樹size * 右子樹size * number of remaining nodes
+step 3. 遍歷每個node,求出左子樹size * 右子樹size * number of remaining nodes
 
 有使用到的觀念：
 
