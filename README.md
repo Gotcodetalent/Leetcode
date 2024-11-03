@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 77 題
+- 目前有 78 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -86,3 +86,4 @@
 - [2049-Count_Nodes_With_the_Highest_Score.cpp](DFS/2049-Count_Nodes_With_the_Highest_Score.cpp) **(M)**
 - [2265-Count_Nodes_Equal_to_Average_of_Subtree.cpp](DFS/2265-Count_Nodes_Equal_to_Average_of_Subtree.cpp) **(M)**
 - [2322-Minimum_Score_After_Removals_on_a_Tree.cpp](DFS/2322-Minimum_Score_After_Removals_on_a_Tree.cpp) **(H)**
+- [2925-Maximum_Score_After_Applying_Operations_on_a_Tree.cpp](DFS/2925-Maximum_Score_After_Applying_Operations_on_a_Tree.cpp) **(M)**
