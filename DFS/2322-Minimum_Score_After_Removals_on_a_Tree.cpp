@@ -24,10 +24,10 @@ public:
             if(visited[next] == 1)continue;
             visited[next] = 1;
 
-            int C = dfs(next, ret, A, B);
-            int other = A^C;
-            int mx = max(other, max(C, B));
-            int mn = min(other, min(C, B));
+            int C = dfs(next, ret, A, B); //返回以子點為root的xor結果
+            int other = A^C; //排除第三個component後, A的xor結果
+            int mx = max(other, max(C, B)); //找當前最大值
+            int mn = min(other, min(C, B)); //找當前最小值
             ret = min(ret, mx-mn);
 
             total ^= C;
