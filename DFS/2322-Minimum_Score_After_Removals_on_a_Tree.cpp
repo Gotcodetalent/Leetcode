@@ -3,7 +3,16 @@
 https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/
 
 解說：
+題目敘述：給予一個無向連通圖, 刪除兩個edge後形成三個component,在每個component中將所有node內的值一起做xor運算
+將三者之中最大值減去最小值即為一個可能解, 求最小可能解
 
+把一個邊去掉後,就會形成兩個component x & y
+因此剩下一個component勢必由 x or y中分離出來
+所以只要對每個邊集中的邊進行去除後,從x與y中各遍歷一次,來尋找所有可能解
+最後將2種可能進行比較得出最小值即可
+solve：從a為首的component中找尋可能解並返回最小值
+getAll：得到以node為root時的xor結果
+dfs：從x or y中找尋所有可能的第三個component並比較
 
 有使用到的觀念：
 
