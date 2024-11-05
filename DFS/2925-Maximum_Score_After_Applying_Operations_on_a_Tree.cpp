@@ -42,7 +42,7 @@ public:
         }
 
         if(t.min_sum == 0) t.min_sum = vals[node]; // leaf
-        else t.min_sum = min<long long>(t.min_sum, vals[node]);
+        else t.min_sum = min<long long>(t.min_sum, vals[node]); //當有多個branch時, 有兩種情況, 1.拿取root 2.拿取child返回的value總和, 拿取root後,前往其他leaf的路徑便不需拿取
 
         return t;
     }
