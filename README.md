@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 88 題
+- 目前有 89 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -98,3 +98,4 @@
 - [0120-Triangle.cpp](DP/0120-Triangle.cpp) **(M)**
 - [0123-Best_Time_to_Buy_and_Sell_Stock_III.cpp](DP/0123-Best_Time_to_Buy_and_Sell_Stock_III.cpp) **(H)**
 - [0139-Word_Break.cpp](DP/0139-Word_Break.cpp) **(M)**
+- [0198-House_Robber.cpp](DP/0198-House_Robber.cpp) **(M)**
