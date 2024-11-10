@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 90 題
+- 目前有 91 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -100,3 +100,4 @@
 - [0139-Word_Break.cpp](DP/0139-Word_Break.cpp) **(M)**
 - [0198-House_Robber.cpp](DP/0198-House_Robber.cpp) **(M)**
 - [0221-Maximal_Square.cpp](DP/0221-Maximal_Square.cpp) **(M)**
+- [0300-Longest_Increasing_Subsequence.cpp](DP/0300-Longest_Increasing_Subsequence.cpp) **(M)**
