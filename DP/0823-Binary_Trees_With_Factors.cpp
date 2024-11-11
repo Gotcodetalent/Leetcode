@@ -14,7 +14,7 @@ DP, Hash table
 class Solution {
 public:
     int numFactoredBinaryTrees(vector<int>& arr) {
-        constexpr long kmod = 10000000007;
+        constexpr long kmod = 1000000007;
         const int n = arr.size();
         sort(arr.begin(), arr.end());
         unordered_map<int, long> dp;
@@ -37,6 +37,7 @@ public:
             ans += tree.second;
         }
 
-        return ans;
+        return ans%kmod;
     }
 };
+
