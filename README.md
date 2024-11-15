@@ -110,3 +110,4 @@
 - [2147-Number_of_Ways_to_Divide_a_Long_Corridor.cpp](DP/2147-Number_of_Ways_to_Divide_a_Long_Corridor.cpp) **(H)**
 - [2320-Count_Number_of_Ways_to_Place_Houses.cpp](DP/2320-Count_Number_of_Ways_to_Place_Houses.cpp) **(M)**
 - [2380-Time_Needed_to_Rearrange_a_Binary_String.cpp](DP/2380-Time_Needed_to_Rearrange_a_Binary_String.cpp) **(M)**
+- [2684-Maximum_Number_of_Moves_in_a_Grid.cpp](DP/2684-Maximum_Number_of_Moves_in_a_Grid.cpp) **(M)**
