@@ -23,7 +23,7 @@ public:
         for(char ch : s)
         {
             if(ch == '0') count++;
-            else{
+            else{ // 只有當遇到1才需要更新
                 if(count > 0) ans = max(ans + 1, count);
             }
         }
