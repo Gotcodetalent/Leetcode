@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 98 題
+- 目前有 99 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -108,3 +108,4 @@
 - [1335-Minimum_Difficulty_of_a_Job_Schedule.cpp](DP/1335-Minimum_Difficulty_of_a_Job_Schedule.cpp) **(H)**
 - [1611-Minimum_One_Bit_Operations_to_Make_Integers_Zero.cpp](DP/1611-Minimum_One_Bit_Operations_to_Make_Integers_Zero.cpp) **(H)**
 - [2147-Number_of_Ways_to_Divide_a_Long_Corridor.cpp](DP/2147-Number_of_Ways_to_Divide_a_Long_Corridor.cpp) **(H)**
+- [2320-Count_Number_of_Ways_to_Place_Houses.cpp](DP/2320-Count_Number_of_Ways_to_Place_Houses.cpp) **(M)**
