@@ -10,16 +10,8 @@ https://leetcode.com/problems/merge-two-sorted-lists/
 */
 
 // #include "../code_function.h"
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
+
+C++:
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
@@ -40,34 +32,14 @@ public:
             curr->next = tmp;
             curr = curr->next;
         }
-        while(list1 != nullptr)
-        {
-            ListNode* tmp = new ListNode(0);
-            tmp->val = list1->val;
-            list1 = list1->next;
-            curr->next = tmp;
-            curr = curr->next;
-        }
-        while(list2 != nullptr)
-        {
-            ListNode* tmp = new ListNode(0);
-            tmp->val = list2->val;
-            list2 = list2->next;
-            curr->next = tmp;
-            curr = curr->next;
-        }
+        if(list1 == nullptr) curr->next = list2;
+        if(list2 == nullptr) curr->next = list1;
         
         return dummy->next;
     }
 };
 
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     struct ListNode *next;
- * };
- */
+C:
 struct ListNode* mergeTwoLists(struct ListNode* list1, struct ListNode* list2) {
     struct ListNode* dummy = (struct ListNode*)malloc(sizeof(struct ListNode)); 
     dummy->next = NULL;
@@ -88,26 +60,9 @@ struct ListNode* mergeTwoLists(struct ListNode* list1, struct ListNode* list2) {
         curr->next = tmp;
         curr = curr->next;
     }
-    while(list1 != NULL)
-    {
-        struct ListNode* tmp = (struct ListNode*)malloc(sizeof(struct ListNode));
-        tmp->val = list1->val;
-        tmp->next = NULL;
-        list1 = list1->next;
-        curr->next = tmp;
-        curr = curr->next;
-    }
-    while(list2 != NULL)
-    {
-        struct ListNode* tmp = (struct ListNode*)malloc(sizeof(struct ListNode));
-        tmp->val = list2->val;
-        tmp->next = NULL;
-        list2 = list2->next;
-        curr->next = tmp;
-        curr = curr->next;
-    }
+    if(list1 == NULL) curr->next = list2;
+    if(list2 == NULL) curr->next = list1;
 
-    struct ListNode* merge = dummy->next;
-    free(dummy);
-    return merge;
+    return dummy->next;
 }
+
