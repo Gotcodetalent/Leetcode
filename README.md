@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 102 題
+- 目前有 103 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -114,3 +114,4 @@
 - [2919-Minimum_Increment_Operations_to_Make_Array_Beautiful.cpp](DP/2919-Minimum_Increment_Operations_to_Make_Array_Beautiful.cpp) **(M)**
 ## [LinkedList](./LinkedList/)
 - [0002-Add_Two_Numbers.cpp](LinkedList/0002-Add_Two_Numbers.cpp) **(M)**
+- [0019-Remove_Nth_Node_From_End_of_List.cpp](LinkedList/0019-Remove_Nth_Node_From_End_of_List.cpp) **(M)**
