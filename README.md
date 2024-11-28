@@ -118,4 +118,4 @@
 - [0021-Merge_Two_Sorted_Lists.cpp](LinkedList/0021-Merge_Two_Sorted_Lists.cpp) **(E)**
 - [0025-Reverse_Nodes_in_k-Group.cpp](LinkedList/0025-Reverse_Nodes_in_k-Group.cpp) **(H)**
 ## [Math](./Math/)
-- [0621-Task Sheduler.cpp](Math/0621-Task Sheduler.cpp) **(M)**
+- [0621-Task Sheduler.cpp](Math/0621-Task_Sheduler.cpp) **(M)**
