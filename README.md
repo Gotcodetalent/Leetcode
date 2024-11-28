@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 105 題
+- 目前有 106 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -117,3 +117,5 @@
 - [0019-Remove_Nth_Node_From_End_of_List.cpp](LinkedList/0019-Remove_Nth_Node_From_End_of_List.cpp) **(M)**
 - [0021-Merge_Two_Sorted_Lists.cpp](LinkedList/0021-Merge_Two_Sorted_Lists.cpp) **(E)**
 - [0025-Reverse_Nodes_in_k-Group.cpp](LinkedList/0025-Reverse_Nodes_in_k-Group.cpp) **(H)**
+## [Math](./Math/)
+- [0621-Task Sheduler.cpp](Math/0621-Task Sheduler.cpp) **(M)**
