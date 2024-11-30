@@ -3,7 +3,7 @@
 https://leetcode.com/problems/reverse-linked-list/description/
 
 解說：
-
+pre, head, next依序迭代到head為nullptr
 
 有使用到的觀念：
 
