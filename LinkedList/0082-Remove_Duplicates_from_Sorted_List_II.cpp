@@ -5,6 +5,7 @@ https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
 解說：
 可能會改變head, 所以使用一個dummy pointer指向head
 preNode指向最後一個合法節點, nextNode遍歷所有節點
+使用一個ump紀錄重複的val值
 
 有使用到的觀念：
 two pointers
