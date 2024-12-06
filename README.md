@@ -117,6 +117,7 @@
 - [0019-Remove_Nth_Node_From_End_of_List.cpp](LinkedList/0019-Remove_Nth_Node_From_End_of_List.cpp) **(M)**
 - [0021-Merge_Two_Sorted_Lists.cpp](LinkedList/0021-Merge_Two_Sorted_Lists.cpp) **(E)**
 - [0025-Reverse_Nodes_in_k-Group.cpp](LinkedList/0025-Reverse_Nodes_in_k-Group.cpp) **(H)**
+- [0061-Rotate_List.cpp](LikedList/0061-Rotate_List.cpp) **(M)**
 - [0206-Reverse_Linked_List.cpp](LinkedList/0206-Reverse_Linked_List.cpp) **(E)**
 ## [Math](./Math/)
 - [0621-Task Sheduler.cpp](Math/0621-Task_Sheduler.cpp) **(M)**
