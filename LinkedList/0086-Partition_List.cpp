@@ -4,7 +4,7 @@ https://leetcode.com/problems/partition-list/description/
 
 解說：
 創造兩個dummy node & dummy pointer, 分別指向less than & greater and equal than 'x'的node
-將ls的tail串向geq的head (geq_head->next), 並將geq最後一個node指向null, 最後return ls的第一個node (ls_head->next)
+將lt的tail串向geq的head (geq_head->next), 並將geq最後一個node指向null, 最後return lt的第一個node (lt_head->next)
 
 有使用到的觀念：
 
