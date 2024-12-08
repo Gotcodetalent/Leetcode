@@ -125,8 +125,9 @@
 - [0138-Copy_List_with_Random_Pointer.cpp](LinkedList/0138-Copy_List_with_Random_Pointer.cpp) **(M)**
 - [0141-Linked_List_Cycle.cpp](LinkedList/0141-Linked_List_Cycle.cpp) **(E)**
 - [0146-LRU_Cache.cpp](LinkedList/0146-LRU_Cache.cpp) **(M)**
-- [0817-Linked_List_Components.cpp](LinkedList/0817-Linked_List_Components.cpp) **(M)**
 - [0206-Reverse_Linked_List.cpp](LinkedList/0206-Reverse_Linked_List.cpp) **(E)**
+- [0817-Linked_List_Components.cpp](LinkedList/0817-Linked_List_Components.cpp) **(M)**
+- [1171-Remove_Zero_Sum_Consecutive_Nodes_from_Linked_List.cpp](LinkedList/1171-Remove_Zero_Sum_Consecutive_Nodes_from_Linked_List.cpp) **(M)**
 ## [Math](./Math/)
 - [0621-Task Sheduler.cpp](Math/0621-Task_Sheduler.cpp) **(M)**
 ## [Stack](./Stack/)
