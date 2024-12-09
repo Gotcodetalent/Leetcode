@@ -116,7 +116,7 @@
 - [0134-Gas Station.cpp](Greedy/0134-Gas Station.cpp) **(M)**
 - [0135-Candy.cpp](Greedy/0135-Candy.cpp) **(H)**
 - [0561-Array_Partition.cpp](Greedy/0561-Array_Partition.cpp) **(E)**
-- [1846-Maximum_Element_After_Decreasing_an_ Rearranging.cpp](Greedy/1846-Maximum_Element_After_Decreasing_an_ Rearranging.cpp) **(M)**
+- [1846-Maximum_Element_After_Decreasing_an_Rearranging.cpp](Greedy/1846-Maximum_Element_After_Decreasing_an_Rearranging.cpp) **(M)**
 - [1903-Largest_Odd_Number_in_String.cpp](Greedy/1903-Largest_Odd_Number_in_String.cpp) **(E)**
 ## [LinkedList](./LinkedList/)
 - [0002-Add_Two_Numbers.cpp](LinkedList/0002-Add_Two_Numbers.cpp) **(M)**
