@@ -35,7 +35,7 @@ public:
                 prev = group_start; //更新prev
             }
             else{
-                prev = group_start; //若長度為奇數, 則更新prev為當前群組節點
+                prev = group_start; //若長度為奇數, 則更新prev為當前群組起點
                 while(--count) prev = prev->next; //走到此群組的end point
             }
             ++group_cnt;
