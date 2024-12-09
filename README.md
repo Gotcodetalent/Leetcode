@@ -113,7 +113,7 @@
 - [2684-Maximum_Number_of_Moves_in_a_Grid.cpp](DP/2684-Maximum_Number_of_Moves_in_a_Grid.cpp) **(M)**
 - [2919-Minimum_Increment_Operations_to_Make_Array_Beautiful.cpp](DP/2919-Minimum_Increment_Operations_to_Make_Array_Beautiful.cpp) **(M)**
 ## [Greedy](./Greedy/)
-- [0134-Gas Station.cpp](Greedy/0134-Gas Station.cpp) **(M)**
+- [0134-Gas_Station.cpp](Greedy/0134-Gas_Station.cpp) **(M)**
 - [0135-Candy.cpp](Greedy/0135-Candy.cpp) **(H)**
 - [0561-Array_Partition.cpp](Greedy/0561-Array_Partition.cpp) **(E)**
 - [1846-Maximum_Element_After_Decreasing_an_Rearranging.cpp](Greedy/1846-Maximum_Element_After_Decreasing_an_Rearranging.cpp) **(M)**
