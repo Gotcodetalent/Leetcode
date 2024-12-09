@@ -10,3 +10,17 @@ https://leetcode.com/problems/array-partition/
 */
 
 // #include "../code_function.h"
+class Solution {
+public:
+    int arrayPairSum(vector<int>& nums) {
+        sort(nums.begin(), nums.end());
+        const int n = nums.size();
+        int sum = 0;
+        for(int i=0; i<n; i+=2)
+        {
+            sum += nums[i];
+        }
+
+        return sum;
+    }
+};
