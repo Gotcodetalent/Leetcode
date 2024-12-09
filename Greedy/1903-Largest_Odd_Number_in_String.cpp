@@ -20,7 +20,7 @@ public:
         bool findOdd = false;
         for(int i=n-1; i>=0; i--)
         {
-            if(num[i] % 2 == 1 && !findOdd) findOdd = true;
+            if(num[i] % 2 == 1) findOdd = true;
             if(findOdd) 
             {
                 ans = num.substr(0,i+1);
