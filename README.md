@@ -63,7 +63,7 @@
 - [1306-Jump_Game_III.cpp](BFS/1306-Jump_Game_III.cpp) **(M)**
 - [1466-Reorder_Routes_to_Make_All_Paths_Lead_to_the_City_Zero.cpp](BFS/1466-Reorder_Routes_to_Make_All_Paths_Lead_to_the_City_Zero.cpp) **(M)**
 - [1926-Nearest_Exit_from_Entrance_in_Maze.cpp](BFS/1926-Nearest_Exit_from_Entrance_in_Maze.cpp) **(M)**
-  ## [BS](./BS/)
+## [BS](./BS/)
 - [0004-Median_of_Two_Sorted_Arrays.cpp](BS/0004-Median_of_Two_Sorted_Arrays.cpp) **(H)**
 ## [DFS](./DFS/)
 - [0017-Letter_Combinations_of_a_Phone_Number.cpp](DFS/0017-Letter_Combinations_of_a_Phone_Number.cpp) **(M)**
