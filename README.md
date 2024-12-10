@@ -66,6 +66,7 @@
 ## [BS](./BS/)
 - [0004-Median_of_Two_Sorted_Arrays.cpp](BS/0004-Median_of_Two_Sorted_Arrays.cpp) **(H)**
 - [0033-Search_in_Rotated_Sorted_Array.cpp](BS/0033-Search_in_Rotated_Sorted_Array.cpp) **(M)**
+- [0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp](BS/0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp) **(M)**
 ## [DFS](./DFS/)
 - [0017-Letter_Combinations_of_a_Phone_Number.cpp](DFS/0017-Letter_Combinations_of_a_Phone_Number.cpp) **(M)**
 - [0022-Generate_Parentheses.cpp](DFS/0022-Generate_Parentheses.cpp) **(M)**
