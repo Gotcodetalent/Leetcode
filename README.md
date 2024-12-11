@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 136 題
+- 目前有 137 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -72,6 +72,7 @@
 - [0153-Find_Minimum_in_Rotated_Sorted_Array.cpp](BS/0153-Find_Minimum_in_Rotated_Sorted_Array.cpp) **(M)**
 - [0154-Find_Minimum_in_Rotated_Sorted_Array_II.cpp](BS/0154-Find_Minimum_in_Rotated_Sorted_Array_II.cpp) **(H)**
 - [0162-Find_Peak_ Element.cpp](BS/0162-Find_Peak_ Element.cpp) **(M)**
+- [0230-Kth_Smallest_Element_in_a_BST.cpp](BS/0230-Kth_Smallest_Element_in_a_BST.cpp) **(M)**
 ## [DFS](./DFS/)
 - [0017-Letter_Combinations_of_a_Phone_Number.cpp](DFS/0017-Letter_Combinations_of_a_Phone_Number.cpp) **(M)**
 - [0022-Generate_Parentheses.cpp](DFS/0022-Generate_Parentheses.cpp) **(M)**
