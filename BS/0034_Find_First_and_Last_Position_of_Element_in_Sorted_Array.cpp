@@ -17,7 +17,7 @@ public:
     vector<int> searchRange(vector<int>& nums, int target) {
         int firstPos = findFirstPos(nums, target);
         int lastPos = findFirstPos(nums, target + 1) - 1;
-        if(firstPos <= lastPos) return {firstPos, lastPos};
+        if(firstPos <= lastPos) return {firstPos, lastPos}; //找不到firstPos時返回 n, 找不到lastPos時返回n-1
         else return {-1, -1};
     }
 
