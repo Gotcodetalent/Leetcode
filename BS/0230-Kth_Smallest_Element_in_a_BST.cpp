@@ -10,6 +10,24 @@ https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 */
 
 // #include "../code_function.h"
+sol 1.
+class Solution {
+public:
+    int kthSmallest(TreeNode* root, int k) {
+        vector<int> order;
+        findOrder(root, order,k);
+        return order[k-1];
+    }
+
+    void findOrder(TreeNode* root, vector<int>& order, int k)
+    {
+        if(root->left) findOrder(root->left, order, k);
+        order.push_back(root->val);
+        if(root->right) findOrder(root->right, order, k);
+    }
+};
+
+sol 2.
 class Solution {
 public:
     int order = 0;
