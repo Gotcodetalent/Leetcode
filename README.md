@@ -68,6 +68,7 @@
 - [0033-Search_in_Rotated_Sorted_Array.cpp](BS/0033-Search_in_Rotated_Sorted_Array.cpp) **(M)**
 - [0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp](BS/0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp) **(M)**
 - [0035-Search_Insert_Position.cpp](BS/0035-Search_Insert_Position.cpp) **(E)**
+- [0074-Search_a_2D_Matrix.cpp](BS/0074-Search_a_2D_Matrix.cpp) **(M)**
 ## [DFS](./DFS/)
 - [0017-Letter_Combinations_of_a_Phone_Number.cpp](DFS/0017-Letter_Combinations_of_a_Phone_Number.cpp) **(M)**
 - [0022-Generate_Parentheses.cpp](DFS/0022-Generate_Parentheses.cpp) **(M)**
