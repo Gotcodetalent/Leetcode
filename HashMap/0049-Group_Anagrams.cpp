@@ -19,12 +19,12 @@ public:
         for(string str : strs)
         {
             string key = str;
-            sort(key.begin(),key.end());
+            sort(key.begin(),key.end()); //找出原字串
             if(ump.count(key)) ans[ump[key]].push_back(str);
             else {
                 vector<string> group = {str};
                 ans.push_back(group);
-                ump[key] = ans.size() - 1; 
+                ump[key] = ans.size() - 1; //set group index
             }
         }
 
