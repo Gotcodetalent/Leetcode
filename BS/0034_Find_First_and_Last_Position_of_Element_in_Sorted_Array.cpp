@@ -3,7 +3,8 @@
 https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array
 
 解說：
-
+sol 1.尋找target的起始位置,以及比target大的數的起始位置
+sol 2.找到target後,左右尋找first && end point
 
 有使用到的觀念：
 
