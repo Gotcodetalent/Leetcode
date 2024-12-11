@@ -71,7 +71,7 @@
 - [0074-Search_a_2D_Matrix.cpp](BS/0074-Search_a_2D_Matrix.cpp) **(M)**
 - [0153-Find_Minimum_in_Rotated_Sorted_Array.cpp](BS/0153-Find_Minimum_in_Rotated_Sorted_Array.cpp) **(M)**
 - [0154-Find_Minimum_in_Rotated_Sorted_Array_II.cpp](BS/0154-Find_Minimum_in_Rotated_Sorted_Array_II.cpp) **(H)**
-- [0162-Find_Peak_ Element.cpp](BS/0162-Find_Peak_ Element.cpp) **(M)**
+- [0162-Find_Peak_Element.cpp](BS/0162-Find_Peak_Element.cpp) **(M)**
 - [0230-Kth_Smallest_Element_in_a_BST.cpp](BS/0230-Kth_Smallest_Element_in_a_BST.cpp) **(M)**
 - [0501-Find_Mode_in_Binary_Search_Tree.cpp](BS/0501-Find_Mode_in_Binary_Search_Tree.cpp) **(E)**
 - [0530-Minimum_Absolute_Difference_in_BST.cpp](BS/0530-Minimum_Absolute_Difference_in_BST.cpp) **(E)**
