@@ -3,7 +3,7 @@
 https://leetcode.com/problems/group-anagrams/
 
 解說：
-同個 排序後的原字串 產生的排列組合, 排序後會相同, 因此可以原字串作為key在HashMap進行紀錄, value為group index
+同個"排序後的原字串"產生的排列組合, 排序後會相同, 因此可以原字串作為 key 在 HashMap 進行紀錄, value 則為 group index
 
 有使用到的觀念：
 
