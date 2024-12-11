@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 139 題
+- 目前有 140 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -134,6 +134,9 @@
 - [1984-Minimum_Difference_Between_Highest_and_Lowest_of_K_Scores.cpp](Greedy/1984-Minimum_Difference_Between_Highest_and_Lowest_of_K_Scores.cpp) **(E)**
 - [2856-Minimum_Array_Length_After_Pair_Removals.cpp](Greedy/2856-Minimum_Array_Length_After_Pair_Removals.cpp) **(M)**
 - [2918-Minimum_Equal_Sum_of_Two_Arrays_After_Replacing_Zeros.cpp](Greedy/2918-Minimum_Equal_Sum_of_Two_Arrays_After_Replacing_Zeros.cpp) **(M)**
+## [HashMap](./HashMap/)
+- [0001-Two_Sum.cpp](HashMap/0001-Two_Sum.cpp) **(E)**
+- [](HashMap/) **()**
 ## [LinkedList](./LinkedList/)
 - [0002-Add_Two_Numbers.cpp](LinkedList/0002-Add_Two_Numbers.cpp) **(M)**
 - [0019-Remove_Nth_Node_From_End_of_List.cpp](LinkedList/0019-Remove_Nth_Node_From_End_of_List.cpp) **(M)**
