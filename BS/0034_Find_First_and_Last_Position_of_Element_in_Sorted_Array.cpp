@@ -17,7 +17,6 @@ public:
     vector<int> searchRange(vector<int>& nums, int target) {
         int firstPos = findFirstPos(nums, target);
         int lastPos = findFirstPos(nums, target + 1) - 1;
-        cout << firstPos << " " << lastPos << endl;
         if(firstPos <= lastPos) return {firstPos, lastPos};
         else return {-1, -1};
     }
