@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 140 題
+- 目前有 141 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -136,6 +136,7 @@
 - [2918-Minimum_Equal_Sum_of_Two_Arrays_After_Replacing_Zeros.cpp](Greedy/2918-Minimum_Equal_Sum_of_Two_Arrays_After_Replacing_Zeros.cpp) **(M)**
 ## [HashMap](./HashMap/)
 - [0001-Two_Sum.cpp](HashMap/0001-Two_Sum.cpp) **(E)**
+- [0012-Integer_to_Roman.cpp](HashMap/0012-Integer_to_Roman.cpp) **(M)**
 - [](HashMap/) **()**
 ## [LinkedList](./LinkedList/)
 - [0002-Add_Two_Numbers.cpp](LinkedList/0002-Add_Two_Numbers.cpp) **(M)**
