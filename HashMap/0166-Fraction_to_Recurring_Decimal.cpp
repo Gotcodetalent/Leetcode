@@ -3,7 +3,9 @@
 https://leetcode.com/problems/fraction-to-recurring-decimal/
 
 解說：
-
+1. 確認正負號
+2. 確認是否有整數 & 小數
+3. 處理小數
 
 有使用到的觀念：
 
