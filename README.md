@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 150 題
+- 目前有 151 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -146,6 +146,7 @@
 - [0242-Valid_Anagram.cpp](HashMap/0242-Valid_Anagram.cpp) **(E)**
 - [0290-Word_Pattern.cpp](HashMap/0290-Word_Pattern.cpp) **(E)**
 - [0383-Ransom_Note.cpp](HashMap/0383-Ransom_Note.cpp) **(E)**
+- [0387-First_Unique_Character_in_a_String.cpp](HashMap/0387-First_Unique_Character_in_a_String.cpp) **(E)**
 - [](HashMap/) **()**
 - [](HashMap/) **()**
 ## [LinkedList](./LinkedList/)
