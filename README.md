@@ -145,6 +145,7 @@
 - [0219-Contains_Duplicate_II.cpp](HashMap/0219-Contains_Duplicate_II.cpp) **(E)**
 - [0242-Valid_Anagram.cpp](HashMap/0242-Valid_Anagram.cpp) **(E)**
 - [0290-Word_Pattern.cpp](HashMap/0290-Word_Pattern.cpp) **(E)**
+- [0383-Ransom_Note.cpp](HashMap/0383-Ransom_Note.cpp) **(E)**
 - [](HashMap/) **()**
 - [](HashMap/) **()**
 ## [LinkedList](./LinkedList/)
