@@ -4,7 +4,7 @@ https://leetcode.com/problems/contiguous-array/
 
 解說：
 計算前綴和, 遇到 0 減一 , 遇到 1 加一
- 遍歷 array 的過程中, 使用 hash map 記錄前綴和, 當前綴和重複出現時, 代表中間有經過一段合法的區段
+ 遍歷 array 的過程中, 使用 hash map 記錄前綴和, 當前綴和重複出現時, 代表中間有經過一段合法的區段 (中間的 sum 為 0)
 
 有使用到的觀念：
 HashMap, Prefix sum
