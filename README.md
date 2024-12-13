@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 158 題
+- 目前有 159 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -155,6 +155,7 @@
 - [0930-Binary_Subarrays_With_Sum.cpp](HashMap/0930-Binary_Subarrays_With_Sum.cpp) **(M)**
 - [1124-Longest_Well-Performing_Interval.cpp](HashMap/1124-Longest_Well-Performing_Interval.cpp) **(M)**
 - [1160-Find_Words_That_Can_Be_Formed_by_Characters.cpp](HashMap/1160-Find_Words_That_Can_Be_Formed_by_Characters.cpp) **(E)**
+- [1424-Diagonal_Traverse_II.cpp](HashMap/1424-Diagonal_Traverse_II.cpp) **(M)**
 - [](HashMap/) **()**
 - [](HashMap/) **()**
 ## [LinkedList](./LinkedList/)
