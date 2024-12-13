@@ -157,6 +157,7 @@
 - [1160-Find_Words_That_Can_Be_Formed_by_Characters.cpp](HashMap/1160-Find_Words_That_Can_Be_Formed_by_Characters.cpp) **(E)**
 - [1424-Diagonal_Traverse_II.cpp](HashMap/1424-Diagonal_Traverse_II.cpp) **(M)**
 - [1436-Destination_City.cpp](HashMap/1436-Destination_City.cpp) **(E)**
+- [1737-Change_Minimum_Characters_to_Satisfy_One_of_Three_Conditions.cpp](HashMap/1737-Change_Minimum_Characters_to_Satisfy_One_of_Three_Conditions.cpp) **(M)**
 - [](HashMap/) **()**
 - [](HashMap/) **()**
 ## [LinkedList](./LinkedList/)
