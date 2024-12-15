@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 166 題
+- 目前有 167 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -160,6 +160,7 @@
 - [1737-Change_Minimum_Characters_to_Satisfy_One_of_Three_Conditions.cpp](HashMap/1737-Change_Minimum_Characters_to_Satisfy_One_of_Three_Conditions.cpp) **(M)**
 - [1743-Restore_the_Array_From_Adjacent_Pairs.cpp](HashMap/1743-Restore_the_Array_From_Adjacent_Pairs.cpp) **(M)**
 - [1897-Redistribute_Characters_to_Make_All_Strings_Equal.cpp](HashMap/1897-Redistribute_Characters_to_Make_All_Strings_Equal.cpp) **(E)**
+- [1930-Unique_Length-3_Palindromic_Subsequences.cpp](HashMap/1930-Unique_Length-3_Palindromic_Subsequences.cpp) **(M)**
 - [](HashMap/) **()**
 - [](HashMap/) **()**
 ## [LinkedList](./LinkedList/)
