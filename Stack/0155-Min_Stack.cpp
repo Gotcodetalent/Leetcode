@@ -12,7 +12,39 @@ https://leetcode.com/problems/min-stack/
 // #include "../code_function.h"
 
 使用two stack (main, min):
-
+class MinStack {
+public:
+    MinStack() {
+        
+    }
+    
+    void push(int val) {
+        if(minStack.empty() || val <= minStack.top())
+        {
+            minStack.push(val);
+        }
+        mainStack.push(val);
+    }
+    
+    void pop() {
+        if(minStack.top() == mainStack.top())
+        {
+            minStack.pop();
+        }
+        mainStack.pop();
+    }
+    
+    int top() {
+        return mainStack.top();
+    }
+    
+    int getMin() {
+        return minStack.top();
+    }
+private:
+    stack<int> minStack;
+    stack<int> mainStack;
+};
 
 使用single stack:
 class MinStack {
