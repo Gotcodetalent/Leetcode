@@ -4,6 +4,7 @@ https://leetcode.com/problems/min-stack/
 
 解說：
 實作一個 min stack 儲存 stack 中的 min value
+min stack 的 top 儲存當前的 min value, 其餘向下的元素則依序為 second min, third min ...
 
 有使用到的觀念：
 
