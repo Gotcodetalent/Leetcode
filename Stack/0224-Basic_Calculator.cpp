@@ -3,6 +3,10 @@
 https://leetcode.com/problems/basic-calculator/
 
 解說：
+使用 sign 代表目前要進行的運算, num 代表目前觀察到的數值
+result 儲存目前所在的括弧內累計的數值, 當有左括弧出現時, 代表要計算新括弧的累計
+先將當前 result & ops 給 push 到 stack 內, 直到遇到右括弧時, 再從 stack 中把儲存的值加回來
+若遍歷到s的最後一個元素, 則再執行一次result更新
 
 
 有使用到的觀念：
