@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 175 題
+- 目前有 176 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -188,7 +188,8 @@
 - [0150-Evaluate_Reverse_Polish_Notation.cpp](Stack/0150-Evaluate_Reverse_Polish_Notation.cpp) **(M)**
 - [0155-Min_Stack.cpp](Stack/0155-Min_Stack.cpp) **(M)**
 - [0224-Basic_Calculator.cpp](Stack/0224-Basic_Calculator.cpp) **(H)**
-- [](Stack/) **()**
 - [0151-Reverse_Words_in_a_String.cpp](Stack/0151-Reverse_Words_in_a_String.cpp) **(M)**
 - [0739-Daily_temperatures.cpp](Stack/0739-Daily_temperatures.cpp) **(M)**
+- [0795-Number_of_Subarrays_with_Bounded_Maximum.cpp](Stack/0795-Number_of_Subarrays_with_Bounded_Maximum.cpp) **(M)**
+- [](Stack/) **()**
 - [](Stack/) **()**
