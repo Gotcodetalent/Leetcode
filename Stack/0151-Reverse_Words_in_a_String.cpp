@@ -3,7 +3,7 @@
 https://leetcode.com/problems/reverse-words-in-a-string/
 
 解說：
-
+skip space, 否則紀錄word, 最後reverse
 
 有使用到的觀念：
 
