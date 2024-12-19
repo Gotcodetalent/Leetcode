@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 180 題
+- 目前有 181 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -185,7 +185,7 @@
 ## [SlidingWindows](./SlidingWindows/)
 - [0003-Longest_Substring_Without_Repeating_Characters.cpp](SlidingWindows/0003-Longest_Substring_Without_Repeating_Characters.cpp) **(M)**
 - [0030-Substring_with_Concatenation_of_All_Words.cpp](SlidingWindows/0030-Substring_with_Concatenation_of_All_Words.cpp) **(H)**
-- [](SlidingWindows/) **()**
+- [0076-Minimum_Window_Substring.cpp](SlidingWindows/0076-Minimum_Window_Substring.cpp) **(H)**
 - [](SlidingWindows/) **()**
 - [](SlidingWindows/) **()**
 - [](SlidingWindows/) **()**
