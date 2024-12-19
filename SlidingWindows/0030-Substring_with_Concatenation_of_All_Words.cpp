@@ -3,7 +3,11 @@
 https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 
 解說：
-
+先記錄 words 中各個 word 的頻率
+接著從 0 ~ word length - 1 開始滑動 (大於等於 word length 後續的都是重複的), 尋找可能解
+step :
+1. 確保當前擷取到的字串是存在的, 若存在則驗證頻率, 超過頻率則從 left 開始縮減
+2. 若不存在則放棄前面擷取的, 從 right 頭開始尋找
 
 有使用到的觀念：
 
@@ -13,59 +17,54 @@ https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 class Solution {
 public:
     vector<int> findSubstring(string s, vector<string>& words) {
-        unordered_map<string, int> wordCount;
-        int wordLength = words[0].length();  // 單字長度
-        int wordCountTotal = words.size();   // 單字數量
-        int totalLength = wordLength * wordCountTotal;  // 所有單字的總長度
-        
-        if (s.length() < totalLength) return {};  // 如果字串長度不足，返回空
+        int wordsCount = words.size();
+        int wordslen = words[0].length(); //window大小
+        int stringlen = s.length();
+        int total = wordslen * wordsCount;
+        vector<int> ans;
 
-        // 初始化 wordCount (記錄每個單字的出現次數)
-        for (const string& word : words) {
-            wordCount[word]++;
-        }
+        if(s.length() < total) return {};
 
-        vector<int> result;
+        unordered_map<string,int> ump;
+        for(string& word : words) ++ump[word];
 
-        // 外層循環，從 0 到 wordLength-1，模擬滑動視窗的開始位置
-        for (int i = 0; i < wordLength; ++i) {
-            int left = i, right = i, count = 0;
-            unordered_map<string, int> windowCount;
-
-            while (right + wordLength <= s.length()) {
-                string currentWord = s.substr(right, wordLength);  // 提取當前字
-                right += wordLength;  // 右指針向右移動
-
-                if (wordCount.count(currentWord)) {
-                    windowCount[currentWord]++;
-                    count++;
-
-                    // 如果單字出現的次數超過要求，左指針向右移動，縮小窗口
-                    while (windowCount[currentWord] > wordCount[currentWord]) {
-                        string leftWord = s.substr(left, wordLength);
-                        windowCount[leftWord]--;
-                        left += wordLength;
-                        count--;
+        for(int i=0; i<wordslen; i++) //i 為 window起點
+        {
+            int l=i, r=i, count = 0;
+            unordered_map<string,int> freq;
+            while(r + wordslen <= stringlen)
+            {
+                string currword = s.substr(r, wordslen);
+                r+=wordslen;
+                
+                if(ump.count(currword)) // sub exist in ump
+                {
+                    ++freq[currword];
+                    ++count;
+                    while(freq[currword] > ump[currword])
+                    {
+                        string leftword = s.substr(l,wordslen);
+                        --freq[leftword];
+                        --count;
+                         l+= wordslen;
                     }
 
-                    // 如果計數達到單字數量，說明找到了一個符合的子字串
-                    if (count == wordCountTotal) {
-                        result.push_back(left);
-                    }
-                } else {
-                    // 如果當前字不在 words 中，重置窗口
-                    windowCount.clear();
-                    count = 0;
-                    left = right;
+                    if(count == wordsCount) ans.push_back(l);
                 }
-            }
+                else // doesn't exist then reset
+                {
+                    freq.clear();
+                    count = 0;
+                    l = r;
+                }
+            }            
         }
 
-        return result;
+        return ans;
     }
 };
 
-
+<以下目前已 exceed time limit>
 class Solution {
 public:
     vector<int> findSubstring(string s, vector<string>& words) {
