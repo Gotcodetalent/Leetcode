@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 185 題
+- 目前有 186 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -190,7 +190,7 @@
 - [0220-Contains_Duplicate_III.cpp](SlidingWindows/0220-Contains_Duplicate_III.cpp) **(H)**
 - [2379-Minimum_Recolors_to_Get_K_Consecutive_Black_Blocks.cpp](SlidingWindows/2379-Minimum_Recolors_to_Get_K_Consecutive_Black_Blocks.cpp) **(E)**
 - [2904-Shortest_and_Lexicographically_Smallest_Beautiful_String.cpp](SlidingWindows/2904-Shortest_and_Lexicographically_Smallest_Beautiful_String.cpp) **(M)**
-- [](SlidingWindows/) **()**
+- [2957-Remove_Adjacent_Almost-Equal_Characters.cpp](SlidingWindows/2957-Remove_Adjacent_Almost-Equal_Characters.cpp) **(M)**
 ## [Stack](./Stack/)
 - [0020-Valid_Parentheses.cpp](Stack/0020-Valid_Parentheses.cpp) **(E)**
 - [0071-Simplify_Path.cpp](Stack/0071-Simplify_Path.cpp) **(M)**
