@@ -19,7 +19,7 @@ public:
         {
             if(abs(word[i] - word[i-1]) <= 1)
             {
-                ++lcnt;
+                ++cnt;
                 i++;
             }
         }
