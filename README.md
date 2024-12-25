@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 191 題
+- 目前有 192 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -187,6 +187,7 @@
 - [0067-Add_Binary.cpp](Math/0067-Add_Binary.cpp) **(E)**
 - [0069-Sqrt(x).cpp](Math/0069-Sqrt(x).cpp) **(E)**
 - [0136-Single_Number.cpp](Math/0136-Single_Number.cpp) **(E)**
+- [0137-Single_Number_II.cpp](Math/0137-Single_Number_II.cpp) **(M)**
 - [](Math/) **()**
 - [](Math/) **()**
 - [0621-Task Sheduler.cpp](Math/0621-Task_Sheduler.cpp) **(M)**
