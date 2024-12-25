@@ -186,6 +186,7 @@
 - [0066-Plus_One.cpp](Math/0066-Plus_One.cpp) **(E)**
 - [0067-Add_Binary.cpp](Math/0067-Add_Binary.cpp) **(E)**
 - [0069-Sqrt(x).cpp](Math/0069-Sqrt(x).cpp) **(E)**
+- [0136-Single_Number.cpp](Math/0136-Single_Number.cpp) **(E)**
 - [](Math/) **()**
 - [](Math/) **()**
 - [0621-Task Sheduler.cpp](Math/0621-Task_Sheduler.cpp) **(M)**
