@@ -182,7 +182,7 @@
 - [2074-Reverse_Nodes_in_Even_Length_Groups.cpp](LinedList/2074-Reverse_Nodes_in_Even_Length_Groups.cpp) **(M)**
 ## [Math](./Math/)
 - [0009-Palindrome_Number.cpp](Math/0009-Palindrome_Number.cpp) **(E)**
-- [0050-Pow(x, n).cpp](Math/0050-Pow(x, n).cpp) **(M)**
+- [0050-Pow(x, n).cpp](Math/0050-Pow%28x%2C%20n%29.cpp)
 - [](Math/) **()**
 - [](Math/) **()**
 - [0621-Task Sheduler.cpp](Math/0621-Task_Sheduler.cpp) **(M)**
