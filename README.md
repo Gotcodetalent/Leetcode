@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 196 題
+- 目前有 197 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -192,7 +192,7 @@
 - [0172-Factorial_Trailing_Zeroes.cpp](Math/0172-Factorial_Trailing_Zeroes.cpp) **(M)**
 - [0190-Reverse_Bits.cpp](Math/0190-Reverse_Bits.cpp) **(E)**
 - [0191-Number_of_1_Bits.cpp](Math/0191-Number_of_1_Bits.cpp) **(E)**
-- [](Math/) **()**
+- [0201-Bitwise_AND_of_Numbers_Range.cpp](Math/0201-Bitwise_AND_of_Numbers_Range.cpp) **(M)**
 - [](Math/) **()**
 - [](Math/) **()**
 - [](Math/) **()**
