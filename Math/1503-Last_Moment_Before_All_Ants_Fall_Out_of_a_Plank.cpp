@@ -5,6 +5,7 @@ https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/
 解說：
 如果兩隻螞蟻相遇，等價於「穿過對方」而繼續向各自的方向前進。
 換句話說，可以將螞蟻的路徑視為不變，直接看每隻螞蟻走到木板邊緣所需的時間。
+所以只要找出到邊緣最大的距離即可
 
 ex: 左側螞蟻 A 到右側的距離是 X, 右側螞蟻 B 到左側的距離是 Y
 時間過了 t 秒後相遇, A 距離邊緣還有 X - t, B 距離邊緣還有 Y - t
