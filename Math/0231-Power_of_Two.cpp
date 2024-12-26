@@ -12,6 +12,14 @@ https://leetcode.com/problems/power-of-two/
 // #include "../code_function.h"
 class Solution {
 public:
+    bool isPowerOfTwo(int n) 
+    {
+        return n > 0 && (n&(n-1))==0;
+    }
+};
+
+class Solution {
+public:
     bool isPowerOfTwo(int n) {
         int power = 1;
         while(n>1 && n%2==0)
