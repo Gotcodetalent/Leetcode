@@ -3,7 +3,7 @@
 https://leetcode.com/problems/bitwise-and-of-numbers-range/
 
 解說：
-
+left 與 right 有 common prefix 時, bitwise and 才會有結果, 否則為 0
 
 有使用到的觀念：
 
