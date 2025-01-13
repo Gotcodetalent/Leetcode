@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 206 題
+- 目前有 207 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -196,15 +196,16 @@
 - [0231-Power_of_Two.cpp](Math/0231-Power_of_Two.cpp) **(E)**
 - [0326-Power_of_Three.cpp](Math/0326-Power_of_Three.cpp) **(E)**
 - [0342-Power_of_Four.cpp](Math/0342-Power_of_Four.cpp) **(E)**
+- [0621-Task Sheduler.cpp](Math/0621-Task_Sheduler.cpp) **(M)**
 - [1266-Minimum_Time_Visiting_All_Points.cpp](Math/1266-Minimum_Time_Visiting_All_Points.cpp) **(E)**
 - [1356-Sort_Integers_by_The_Number_of_1_Bits.cpp](Math/1356-Sort_Integers_by_The_Number_of_1_Bits.cpp) **(E)**
 - [1503-Last_Moment_Before_All_Ants_Fall_Out_of_a_Plank.cpp](Math/1503-Last_Moment_Before_All_Ants_Fall_Out_of_a_Plank.cpp) **(M)**
 - [1688-Count_of_Matches_in_Tournament.cpp](Math/1688-Count_of_Matches_in_Tournament.cpp) **(E)**
 - [1716-Calculate_Money_in_Leetcode_Bank.cpp](Math/1716-Calculate_Money_in_Leetcode_Bank.cpp) **(E)**
 - [1759-Count_Number_of_Homogenous_Substrings.cpp](Math/1759-Count_Number_of_Homogenous_Substrings.cpp) **(M)**
+- [1863-Sum_of_All_Subset_XOR_Totals.cpp](Math/1863-Sum_of_All_Subset_XOR_Totals.cpp) **(E)**
 - [](Math/) **()**
 - [](Math/) **()**
-- [0621-Task Sheduler.cpp](Math/0621-Task_Sheduler.cpp) **(M)**
 ## [SlidingWindows](./SlidingWindows/)
 - [0003-Longest_Substring_Without_Repeating_Characters.cpp](SlidingWindows/0003-Longest_Substring_Without_Repeating_Characters.cpp) **(M)**
 - [0030-Substring_with_Concatenation_of_All_Words.cpp](SlidingWindows/0030-Substring_with_Concatenation_of_All_Words.cpp) **(H)**
