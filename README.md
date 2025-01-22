@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 212 題
+- 目前有 213 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -209,7 +209,7 @@
 - [2682-Find_the_Losers_of_the_Circular_Game.cpp](Math/2682-Find_the_Losers_of_the_Circular_Game.cpp) **(E)**
 - [2683-Neighboring_Bitwise_XOR.cpp](Math/2683-Neighboring_Bitwise_XOR.cpp) **(M)**
 - [2849-Determine_if_a_Cell_Is_Reachable_at_a_Given_Time.cpp](Math/2849-Determine_if_a_Cell_Is_Reachable_at_a_Given_Time.cpp) **(E)**
-- [](Math/) **()**
+- [2917-Find_the_K-or_of_an_Array.cpp](Math/2917-Find_the_K-or_of_an_Array.cpp) **(E)**
 - [](Math/) **()**
 - [](Math/) **()**
 - [](Math/) **()**
