@@ -3,7 +3,8 @@
 https://leetcode.com/problems/reverse-integer/description/
 
 解說：
-
+反轉整數, 範圍是 INT_MAX ~ INT_MIN
+逐個將餘數加上並*10
 
 有使用到的觀念：
 
