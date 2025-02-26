@@ -33,7 +33,7 @@
 - [1561-Maximum_Number_of_Coins_You_Can_Get.cpp](Array/1561-Maximum_Number_of_Coins_You_Can_Get.cpp) **(M)**
 - [1625-Lexicographically_Smallest_String_After_Applying_Operations.cpp](Array/1625-Lexicographically_Smallest_String_After_Applying_Operations.cpp) **(M)**
 - [1662-Check_If_Two_String_Arrays_are_Equivalent.cpp](Array/1662-Check_If_Two_String_Arrays_are_Equivalent.cpp) **(E)**
-- [1749-Maximum_Absolute_Sum_Of_Any_Subarray.cpp](Array/Maximum_Absolute_Sum_Of_Any_Subarray.cpp) **(M)**
+- [1749-Maximum_Absolute_Sum_Of_Any_Subarray.cpp](Array/1749-Maximum_Absolute_Sum_Of_Any_Subarray.cpp) **(M)**
 - [1877-Minimize_Maximum_Pair_Sum_in_Array.cpp](Array/1877-Minimize_Maximum_Pair_Sum_in_Array.cpp) **(M)**
 - [1887-Reduction_Operations_to_Make_the_Array_Elements_Equal.cpp](Array/1887-Reduction_Operations_to_Make_the_Array_Elements_Equal.cpp) **(M)**
 - [1980-Find_Unique_Binary_String.cpp](Array/1980-Find_Unique_Binary_String.cpp) **(M)**
