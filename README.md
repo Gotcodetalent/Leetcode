@@ -77,7 +77,7 @@
 - [0230-Kth_Smallest_Element_in_a_BST.cpp](BS/0230-Kth_Smallest_Element_in_a_BST.cpp) **(M)**
 - [0501-Find_Mode_in_Binary_Search_Tree.cpp](BS/0501-Find_Mode_in_Binary_Search_Tree.cpp) **(E)**
 - [0530-Minimum_Absolute_Difference_in_BST.cpp](BS/0530-Minimum_Absolute_Difference_in_BST.cpp) **(E)**
-- [2594-Minimum_Time_to_Repair_Cars.cpp](BS/2594-Minimum_Time_to_Repair_Cars) **(M)**
+- [2594-Minimum_Time_to_Repair_Cars.cpp](BS/2594-Minimum_Time_to_Repair_Cars.cpp) **(M)**
 ## [DFS](./DFS/)
 - [0017-Letter_Combinations_of_a_Phone_Number.cpp](DFS/0017-Letter_Combinations_of_a_Phone_Number.cpp) **(M)**
 - [0022-Generate_Parentheses.cpp](DFS/0022-Generate_Parentheses.cpp) **(M)**
