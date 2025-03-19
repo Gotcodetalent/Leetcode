@@ -79,7 +79,7 @@
 - [0530-Minimum_Absolute_Difference_in_BST.cpp](BS/0530-Minimum_Absolute_Difference_in_BST.cpp) **(E)**
 - [2594-Minimum_Time_to_Repair_Cars.cpp](BS/2594-Minimum_Time_to_Repair_Cars.cpp) **(M)**
 ## [Bit-Manipulation](./Bit-Manipulation/)
-- [3191-Minimum_Operations_to_Make_Binary_Array_Elements_Equal_to_One_i.cpp](./Bit-Manipulation/3191-Minimum_Operations_to_Make_Binary_Array_Elements_Equal_to_One_i.cpp) **(M)**
+- [3191-Minimum_Operations_to_Make_Binary_Array_Elements_Equal_to_One_i.cpp](Bit-Manipulation/3191-Minimum_Operations_to_Make_Binary_Array_Elements_Equal_to_One_i.cpp) **(M)**
 
 ## [DFS](./DFS/)
 - [0017-Letter_Combinations_of_a_Phone_Number.cpp](DFS/0017-Letter_Combinations_of_a_Phone_Number.cpp) **(M)**
