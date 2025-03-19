@@ -1,6 +1,6 @@
 /*
 題目：
-https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/?envType=daily-question&envId=2025-03-19
+https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/description/
 
 解說：
 
