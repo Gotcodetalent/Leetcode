@@ -5,9 +5,10 @@ https://leetcode.com/problems/longest-nice-subarray/description/
 解說：
 題目敘述求 longest nice subarray, nice subarray 代表內部每個元素兩兩做 bitwise & 會等於 0 的子陣列.
 
-從 array 的起始點開始遍歷, 只要符合標準, 就將當前數值利用 bitwise or 加入 currBit 中, 
-currBit 表示了所有符合標準的數的 bits 落在哪些位置, 只要沒有符合 nice, 就使用 exclusive or (^) 將其踢出
-只要使用 sliding window 逐一按照上述邏輯運算, 就可以得出最大的 nice 子陣列長度.
+從 array 的起始點開始使用 sliding window 遍歷, 只要符合 nice, 
+就將當前數值利用 bitwise or 加入 currBit 中, currBit 表示了所有符合標準的數的 bits 落在哪些位置. 
+只要沒有符合 nice, 就使用 exclusive or (^) 從左邊界開始將之前加入數值給踢出 , 最後即可得出最大的 nice 子陣列長度.
+
 
 有使用到的觀念：
 
