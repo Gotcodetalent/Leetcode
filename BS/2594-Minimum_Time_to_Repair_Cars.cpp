@@ -4,7 +4,7 @@ https://leetcode.com/problems/minimum-time-to-repair-cars/?envType=daily-questio
 
 解說：
 Sol 1. (slow) 使用 minHeap 逐個將目前所需最少維修時間的技師找出來, 直到滿足維修需求
-Sol 2. (fast) 使用 Binary search, 尋找 valid 維修時間 (是否能在該時間內能維修所有車輛), 並持續更新所需時間之最小值 
+Sol 2. (fast) 使用 Binary search, 尋找 valid 維修時間 (該時間內技師們所能維修的車輛總數是否 >= demand), 並持續更新所需時間之最小值 
 
 有使用到的觀念：
 
