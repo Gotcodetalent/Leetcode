@@ -3,7 +3,10 @@
 https://leetcode.com/problems/count-the-number-of-complete-components/description/
 
 解說：
-
+判斷給定圖中有幾個 complete connected components, complete 代表 connected component 中的每個 vertex 彼此之間有 edge 相連
+step 1. 建立graph
+step 2. 執行 DFS 來找出 connected compenent
+step 3. 判斷 connected component 中有哪些是 complete 
 
 有使用到的觀念：
 
