@@ -1,7 +1,7 @@
 # Leetcode
 [wisdompeak 分類題庫](https://github.com/wisdompeak/LeetCode)<br>
 
-- 目前有 227 題
+- 目前有 228 題
 - [code_function.h](./code_function.h) 是集合目前用到的 Library 的標頭檔
 - [count.ipynb](./count.ipynb) 用來計算 .cpp 檔的個數
 
@@ -146,6 +146,7 @@
 - [1903-Largest_Odd_Number_in_String.cpp](Greedy/1903-Largest_Odd_Number_in_String.cpp) **(E)**
 - [1921-Eliminate_Maximum_Number_of_Monsters.cpp](Greedy/1921-Eliminate_Maximum_Number_of_Monsters.cpp) **(M)**
 - [1984-Minimum_Difference_Between_Highest_and_Lowest_of_K_Scores.cpp](Greedy/1984-Minimum_Difference_Between_Highest_and_Lowest_of_K_Scores.cpp) **(E)**
+- [2551-Put_Marbles_in_Bags.cpp](Greedy/2551-Put_Marbles_in_Bags.cpp) **(H)**
 - [2856-Minimum_Array_Length_After_Pair_Removals.cpp](Greedy/2856-Minimum_Array_Length_After_Pair_Removals.cpp) **(M)**
 - [2918-Minimum_Equal_Sum_of_Two_Arrays_After_Replacing_Zeros.cpp](Greedy/2918-Minimum_Equal_Sum_of_Two_Arrays_After_Replacing_Zeros.cpp) **(M)**
 ## [HashMap](./HashMap/)
