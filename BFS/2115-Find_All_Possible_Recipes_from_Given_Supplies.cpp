@@ -59,22 +59,22 @@ public:
 DFS:
 class Solution {
 public:
-    unordered_map<string, bool> complete;
-    unordered_set<string> supplySet;
-    unordered_set<string> recipeSet;
-    unordered_map<string, int> recipeIndex;
-    unordered_set<string> visited;
+    unordered_map<string, bool> complete; //紀錄食譜是否可完成
+    unordered_set<string> supplySet; //用於確認是否為原料
+    unordered_set<string> recipeSet; //用於確認是否為食譜
+    unordered_map<string, int> recipeIndex; //搜尋當前食譜的 index
+    unordered_set<string> visited; //DFS prune, 當有食譜被搜尋過時, 其他遞迴便可不必再去確認
     vector<string> findAllRecipes(vector<string>& recipes, vector<vector<string>>& ingredients, vector<string>& supplies) {
         vector<string> ans;
         supplySet = unordered_set<string>(supplies.begin(), supplies.end());
         recipeSet = unordered_set<string>(recipes.begin(), recipes.end());
 
-        for(int i = 0; i < recipes.size(); ++i)
+        for(int i = 0; i < recipes.size(); ++i) //紀錄食譜的 index
         {
             recipeIndex[recipes[i]] = i;
         }
 
-        for(int i = 0; i < recipes.size(); ++i)
+        for(int i = 0; i < recipes.size(); ++i) //確認食譜可否被製作出來
         {
             if(check(i, recipes, ingredients, supplies))
             {
